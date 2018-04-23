@@ -4,8 +4,8 @@ $LogFile = "%BUNDLE_LOG%"
 function LogMessage
 {
     param([string]$Message)
-    ((Get-Date).ToString() + " - " + $Message) >> $LogFile;
+    ((Get-Date).ToString() + " - " + $Message) >> $LogFile
 }
 
 # Log a message like this:
-LogMessage -Message "Starting generic script";
+LogMessage -Message "Starting generic script"
